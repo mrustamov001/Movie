@@ -1,0 +1,12 @@
+@mixin row {
+    display: flex;
+    align-items: center;
+}
+
+@mixin font ($font-style, $font-wight, $font-size, $line-hight, $color) {
+    font-style: $font-style;
+    font-weight: $font-wight;
+    font-size: $font-size;
+    line-height: $line-hight;
+    color: $color;
+}
