@@ -1,0 +1,69 @@
+
+.hero{
+    // background-color: #333;
+    // background: url("http://image.tmdb.org/t/p/w500//r9PkFnRUIthgBp2JZZzD380MWZy.jpg") no-repeat;
+    // background-size: 1920px;
+
+    &__wrapper{
+        display: flex;
+        overflow: hidden;
+        transition: all 2s;
+    }
+    
+    &__box{
+        display: flex;
+        padding: 100px 0 161px 0;
+        margin-right: 200px;
+        transition: all 2s;
+        transform: translate(0);
+    }
+
+    &__inner{
+        padding-left: 50px;
+    }
+
+    &__img{
+        width: 400px;
+        height: 600px;
+        display: flex;
+        // margin-right: 50px;
+    }
+
+    &__title{
+        font-size: 55px;
+        margin-bottom: 45px;
+        color: #fff;
+        // width: 760px;
+        // height: 190px;
+        text-shadow: -5px -5px 14px rgba(255, 255, 255, 0.5), 2px 2px 14px rgb(5, 241, 253,);
+    }
+    
+    &__description{
+        position: relative;
+        color: rgb(255, 255, 255);
+        // opacity: 0.5;
+        font-size: 24px;
+        text-shadow: -5px -5px 14px rgba(255, 255, 255, 0.5), 2px 2px 14px rgb(5, 241, 253,);
+    }
+
+    &__item-lang{
+        margin-top: 25px;
+    }
+
+    &__item-year{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    &__texts{
+        // position: absolute;
+        // right: 0;
+        width: 600px;
+    }
+
+    &__btn{
+        border: transparent;
+        background-color: transparent;
+        color: #fff;
+    }
+}
